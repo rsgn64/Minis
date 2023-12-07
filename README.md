@@ -20,4 +20,4 @@ This was an interesting concept I came up with after learning about cost-functio
 The concept is to convert a series of x-bytes into integers, use a defined table of numbers to divide them by. If the division results in a whole number AND the resultant number can be stored as 1-byte less than original, record it.
 Then attempt to fit these results to some series of functions where the stored info that defines them is less than the total byte reduction + some short-hand indicator that describes the results (such as adding each, or a function that would output a 1 to 2 byte answer.
 Afterwards, millions of guessing-iterations can be performed by modern GPUs to decompress.
-Ultimately, since my approach isn't quite a cost-function, the concept can't iterate <i>towards</i> the correct answer which I think would make it plausible. This is just guessing and it's a heckin lot of guesses.
+Ultimately, I concluded before going too far that since my approach isn't quite a cost-function, the concept can't iterate <i>towards</i> the correct answer which I think would make it plausible. This would just be guessing and it's a heckin lot of guesses.
